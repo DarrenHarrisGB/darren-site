@@ -1,18 +1,28 @@
 ---
 layout: ../layouts/Layout.astro
-title: Services | Darren Harris
-description: Services offered.
+title: Keynote Speaker, Trainer & Coach | Darren Harris
+description: keynote speaking, workshops, and coaching.
 ---
 
-# Services
+# Keynote Speaking, Training, and Coaching
+When you carry out a performance review, you decide what you will do differently next time. But that plan is biased by hindsight, locking you into a never-ending cycle. What separates the best from the rest isn't a better plan for next time. It's the ability to get it right this time.
 
-Replace this with your real services content — one heading per
-service works well, for example:
+## What the audience will be able to do by the end of the session
+1.Think clearly under pressure, accessing what they already know instead of losing it.
+2.Feel confident before and during the moments that test them.
+3.Do the specific skill each moment requires — calming their nerves before a pitch, holding focus through a crisis call, backing themselves in a crunch meeting.
 
-## Service one
+## Who this session is ideal for
+1.**Speaker bookers**: conference and event planners looking for an opening or closing keynote with a practical takeaway, not just applause.
+2.**Audience members**: leaders and managers working in high-pressure, high-stakes environments; teams and individuals who need to perform live, not just prepare for it; Employee Resource Groups, particularly disability networks.
 
-A short description of what this service includes.
+## What formats this session is available in
+1.Keynote.
+2.Seminar. This is the best vehicles for looking at pricing in more detail. Think of them as extended versions of my popular keynote. Seminars are typically 90 minutes duration. Seminars allow for extensive Q&A sessions and an even greater level of customisation. They are applicable to the same audience type and mix as the keynote. The difference is the level of detail addressed.
+3.Workshops and Mastermind Sessions. These sessions typically last between 2 to 3 hours and therefore allow for the greatest level of detail. These in-depth sessions address up to six key pricing ideas, illustrated with detailed examples from business and consumer marketing. I also uses customised examples, showing participants how they can apply his concepts.
 
-## Service two
+## Complementary speaking topics
+ -Goal setting: Avoiding the comparison trap
+ -Motivation: Giving up the carrot and stick
+ -Team Player: Why nothing great is achieved alone
 
-A short description of what this service includes.
