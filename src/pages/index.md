@@ -18,12 +18,11 @@ Every role has one - the pitch, the crisis call, the crunch meeting - a moment w
 People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the mental skills gap: the space between knowing and doing.
 
 ## The Elite Level System
-Darren uses a proven, psychology-based, three-stage framework that gives your people the mental skills to close the gap and own their defining moment.
+I use a proven, psychology-based, three-stage framework that gives your people the mental skills to close the gap and own their defining moment.
 [Go to Process](/process)
 
 ## Services
-You can work with me in 3 different ways:
- 1. Keynote Speaking.
+You can choose how you apply the Elite Level System in your organisation. Here are the three ways clients most often book me to deliver it: 1. Keynote Speaking.
  2. Workshop.
  3. Coaching.
 
@@ -36,7 +35,8 @@ Logo block
 
 ## What Clients Say
 Link to previous
- > “Testimonial”
+ > “By far one of the greatest speakers I have seen”
+> — **Savita Holt**, Learning & Development Lead, *UK Research and Innovation*
 
 Link to next
 
