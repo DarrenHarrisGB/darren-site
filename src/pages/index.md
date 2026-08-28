@@ -22,7 +22,8 @@ I use a proven, psychology-based, three-stage framework that gives your people t
 [Go to Process](/process)
 
 ## Services
-You can choose how you apply the Elite Level System in your organisation. Here are the three ways clients most often book me to deliver it: 1. Keynote Speaking.
+You can choose how you apply the Elite Level System in your organisation. Here are the three ways clients most often book me to deliver it:
+ 1. Keynote Speaking.
  2. Workshop.
  3. Coaching.
 
