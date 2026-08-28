@@ -1,5 +1,18 @@
-Home
-# The Defining Moment Your People Can't Afford to Get Wrong
+---
+layout: ../layouts/Layout.astro
+title: Home | Darren Harris
+description: Darren Harris Speaker Trainer Coach.
+---
+
+# Closing the Mental Skills Gap
+Using psychology-based principles that inspire leaders and teams to increase resilience, improve adaptability, and ignite high performance
+<video controls width="600">
+  <source src="/videos/homepage.mp4" type="video/mp4" />
+  
+Your browser doesn't support video playback.
+</video>
+
+## The Defining Moment Your People Can't Afford to Get Wrong
 Every role has one - the pitch, the crisis call, the crunch meeting - a moment when the true nature, strengths, or weaknesses of a person or group become clear.
 
 People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the mental skills gap: the space between knowing and doing.
@@ -30,4 +43,3 @@ Link to next
 ## Meet Darren
 Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 [Go to About](/about)
-
