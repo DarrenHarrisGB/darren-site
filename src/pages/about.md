@@ -1,23 +1,14 @@
 ---
 layout: ../layouts/Layout.astro
 title: About | Darren Harris
-description: About this site.
+description: Meet Darren Harris.
 ---
 
 # About
-
-Darren Harris is a Paralympian, psychologist, and speaker.
-
+Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 ## Paralympian
-Darren is a dual Paralympian, multiple World and European medallist, and most-capped England blind footballer.
-
+The turning point came during his 23-year sporting career, where he became a dual Paralympian, multiple World and European medallist, and England's most-capped blind footballer.
 ## Psychologist
-Darren went from skeptic to scholar, studying a masters at Aston University.
-
+During this period, he went from psychology sceptic to scholar. When he realised the problem was never a lack of talent or effort but a missing set of mental skills.
 ## Speaker
-Darren is an award-winning keynote speaker who has delivered x talks, to y people, sincez.
-
-
-This page lives at `src/pages/about.md` and is automatically served at
-`/about/`. That's the pattern for every page on the site: the file's name
-becomes the URL.
+As an award-winning keynote speaker, he has now delivered 450+ presentations to 150,000+ people worldwide since 2013.
