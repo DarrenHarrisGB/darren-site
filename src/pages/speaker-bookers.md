@@ -1,16 +1,10 @@
-\---
-
+---
 layout: ../layouts/Layout.astro
-
 title: Speaker Bookers | Darren Harris
-
 description: Darren Harris Information For Speaker Bookers.
+---
 
-\---
-
-
-
-\# Information For Speaker Bookers
+# Information For Speaker Bookers
 
 The text and images below have been provided to help you plan and organise your event. If you want customised assets, like a promo video, just ask. If you have any additional requests, I aim to be as easy to work with before, during, and after our time together.
 
