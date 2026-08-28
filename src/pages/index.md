@@ -15,21 +15,24 @@ Link to process
 
 ## Speaking
 You can work with me in 3 different ways:
-1. Keynote Speaking.
-2. Workshop.
-3. Coaching.
+ 1. Keynote Speaking.
+ 2. Workshop.
+ 3. Coaching.
+
 Link to speaking
 
 ## Who Darren works with
 When the moment can't be left to chance, this is who calls Darren in:
+
 Logo block
 
 ## What Clients Say
 Link to previous
-> Blockquote
+ > Blockquote
+
 Link to next
 
 ## Meet Darren
 Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 
-Link to about
+[Go to About](https://about.md)
