@@ -35,4 +35,4 @@ Link to next
 ## Meet Darren
 Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 
-[Go to About](https://about.md)
+[Go to About](/about)
