@@ -4,14 +4,32 @@ title: Home | Darren Harris
 description: Welcome to the site.
 ---
 
-# Welcome
+# The Defining Moment Your People Can't Afford to Get Wrong
+Every role has one - the pitch, the crisis call, the crunch meeting - a moment when the true nature, strengths, or weaknesses of a person or group become clear.
 
-This is the homepage. Replace this text with your real homepage content —
-everything here is written in plain markdown, and it automatically picks up
-the shared header, footer, and styling from `src/layouts/Layout.astro`.
+People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the mental skills gap: the space between knowing and doing.
 
-## What you can do here
+## The Elite Level System
+Darren uses a proven, psychology-based, three-stage framework that gives your people the mental skills to close the gap and own their defining moment.
+Link to process
 
-Write headings, paragraphs, [links](/about/), and lists just like any
-markdown file. When you're ready to add more content, copy this file's
-frontmatter pattern into a new `.md` file under `src/pages/`.
+## Speaking
+You can work with me in 3 different ways:
+1. Keynote Speaking.
+2. Workshop.
+3. Coaching.
+Link to speaking
+
+## Who Darren works with
+When the moment can't be left to chance, this is who calls Darren in:
+Logo block
+
+## What Clients Say
+Link to previous
+> Blockquote
+Link to next
+
+## Meet Darren
+Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
+
+Link to about
