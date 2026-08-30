@@ -1,4 +1,4 @@
-\---
+---
 
 layout: ../layouts/Layout.astro
 
@@ -6,229 +6,103 @@ title: Performance Process | Darren Harris
 
 description: Darren Harris Performance Process.
 
-\---
+---
+
+
+
+# Performance Process
+
+The Elite Level System comprises six steps:
+
+What elite athletes can teach business
+
+Book/Hire a high-performance speaker
+
+elite performance mindset
+
+
+
+<div class="process-carousel" id="process-carousel">
+  <div class="process-track">
+    <article class="process-slide">
+      <h2>1️⃣ Under-performance</h2>
+      <p>performance anxiety</p>
+      <p>3 Signs of Underperformance:</p>
+      <p><strong>Performance ceiling</strong>: You&rsquo;ve plateaued rather than peaked, the self-imposed limit someone doesn&rsquo;t realise they&rsquo;ve set.</p>
+      <p><strong>Performance inconsistency</strong>: You&rsquo;re good one day, average the next.</p>
+      <p><strong>Performance slump</strong>: You&rsquo;ve dropped off, gradually or suddenly.</p>
+    </article>
+    <article class="process-slide">
+      <h2>2️⃣ Performance Behaviours</h2>
+      <p>disability as behaviour</p>
+    </article>
+    <article class="process-slide">
+      <h2>3️⃣ Performance Basics</h2>
+      <p>foundational skills, building blocks, life skills</p>
+      <p>interpersonal and motivation, goal setting, growth mindset, people skills</p>
+    </article>
+    <article class="process-slide">
+      <h2>4️⃣ Performance Readiness</h2>
+      <p>Before a performance,</p>
+      <p>pre-performance routine, performance preparation, performance anxiety, performance nerves.</p>
+      <p>Arousal control (finding the right level of activation, not too flat, not too anxious).</p>
+      <p>Mental imagery/visualization, and self-talk to manage nerves in the seconds before execution.</p>
+    </article>
+    <article class="process-slide">
+      <h2>5️⃣ Performance Execution</h2>
+      <p>During a performance, performance skills &mdash; mental readiness, attentional control, managing arousal/stress.</p>
+      <p>Staying calm, keeping composure. Feedback is immediate and objective: you won or lost, the time was faster or slower. Decision-making under ambiguity rather than time pressure.</p>
+      <p>Attention control. Emotion control.</p>
+      <p>Performance under pressure, performance breakdown, performance block, choking (the technical term, blunt but widely searched), performance consistency.</p>
+    </article>
+    <article class="process-slide">
+      <h2>6️⃣ Performance Review</h2>
+      <p>After a performance &mdash; the reflection stage.</p>
+      <p>Post-performance analysis, performance debrief, performance feedback loop, performance data.</p>
+    </article>
+  </div>
+  <div class="process-nav">
+    <button type="button" class="process-prev" aria-label="Previous step">&lsaquo; Previous</button>
+    <span class="process-dots"></span>
+    <button type="button" class="process-next" aria-label="Next step">Next &rsaquo;</button>
+  </div>
+</div>
+<script>
+  (function () {
+    var carousel = document.getElementById('process-carousel');
+    if (!carousel) return;
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll('.process-slide'));
+    var prevBtn = carousel.querySelector('.process-prev');
+    var nextBtn = carousel.querySelector('.process-next');
+    var navWrap = carousel.querySelector('.process-nav');
+    var dotsWrap = carousel.querySelector('.process-dots');
+    var index = 0;
+    if (slides.length <= 1 && navWrap) { navWrap.style.display = 'none'; }
+    slides.forEach(function (_, i) {
+      var dot = document.createElement('button');
+      dot.type = 'button';
+      dot.className = 'process-dot';
+      dot.setAttribute('aria-label', 'Go to step ' + (i + 1));
+      dot.addEventListener('click', function () { show(i); });
+      dotsWrap.appendChild(dot);
+    });
+    var dots = Array.prototype.slice.call(dotsWrap.children);
+    function show(i) {
+      index = (i + slides.length) % slides.length;
+      slides.forEach(function (s, si) { s.style.display = si === index ? '' : 'none'; });
+      dots.forEach(function (d, di) { d.classList.toggle('active', di === index); });
+    }
+    if (prevBtn) prevBtn.addEventListener('click', function () { show(index - 1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { show(index + 1); });
+    show(0);
+  })();
+</script>
+
+
+
+**Aspirational/outcome phrases** (useful for the resolution/promise section)
+
+Peak performance, sustainable performance, performance culture, high performance, performance breakthrough, elite performance, performance transformation.
 
 
-
-The Platypus Pricing Process
-
-How to achieve profit improvement by applying pricing optimisation to your marketing
-
-Contact David
-
-The Platypus Pricing Process comprises six steps
-
-1\. Understanding Pricing Philosophy
-
-The objective is to understand how prices are currently set. Are you basically selling your inputs, such as time; your outputs, the things you and your competitors do (either products or services); or the outcomes you create for your .
-
-
-
-2\. Pricing Analysis
-
-This detailed work looks at your pricing from many perspectives. This gives you a deep understanding of how potential pricing changes would impact your customer base.
-
-
-
-Here’s a summary of the different analyses I take clients through:
-
-
-
-Buyer Behaviour Analysis and Segment Identification
-
-This gives you an understanding how your customers behave and groups them into similar segments based on their shared characteristics. This information can be used to improve your marketing and sales strategies by targeting your messages and offers to the right people.
-
-
-
-There are many different factors that can influence buyer behaviour, such as:
-
-
-
-Demographics (age, gender, location, etc.)
-
-
-
-Psychographics (personality, values, lifestyle, etc.)
-
-
-
-Behavioural factors (purchase history, website activity, etc.)
-
-
-
-Needs and wants
-
-
-
-Motivations
-
-
-
-Pain points
-
-
-
-Buying process
-
-
-
-By understanding these factors, you can identify different segments of buyers and target them with the right message. For example, if you sell a product that is targeted at young professionals, you might want to focus your marketing on social media platforms that are popular with this group.
-
-
-
-Value Proposition per Segment
-
-If you are looking to improve your marketing and sales results, developing a value proposition per segment is an important step.
-
-
-
-A segment value proposition summarizes the value you offer to a specific group of customers. It is tailored to their specific needs and it highlights the benefits most relevant to that segment.
-
-
-
-For example, a software house might have a different value proposition for businesses than for individuals. For the B2B segment, the value proposition might emphasise savings in time and money. For the B2C segment, the value proposition might emphasise ease of use and affordability.
-
-
-
-Product/Service Mix Analysis
-
-This analysis helps you assess your product or service offerings and improve their performance. It is a systematic process that involves evaluating these four elements:
-
-
-
-Product: the physical and intangible offering you deliver.
-
-
-
-Price: the amount of money customers pay.
-
-
-
-Place: the channels through which you distribute to customers.
-
-
-
-Promotion: the activities you undertake to create awareness of your products or services.
-
-
-
-The analysis helps you identify strengths and weaknesses across your range. It also helps you assess the competitive landscape and develop strategies to improve your offerings.
-
-
-
-Discount Impact and Price Increase Breakeven
-
-These two calculations help you make pricing decisions. By understanding how discounts and price increases affect sales, you can make more informed decisions about how to price your products or services.
-
-
-
-Discount impact measures the effect of a discount on the sales of a product or service. A discount can increase sales by making the product or service more affordable, but it also reduces profits.
-
-
-
-Price increase breakeven refers to the point at which a price increase will no longer affect the number of units sold. In other words, it is the price at which the additional revenue generated by the price increase is offset by the loss of sales.
-
-
-
-Simplified Activity-Based Costing
-
-Simplified activity-based costing (ABC) is a costing method that assigns overhead and indirect costs to related products and services in a simpler way than traditional costing methods. It does this by identifying the key activities that are performed in the production process and then assigning the overhead costs to those activities.
-
-
-
-The simplified ABC approach is less complex than traditional ABC, but it can still be a valuable tool for improving the accuracy of product costing. It is a good option for businesses that want to implement ABC but do not have the resources or expertise to do so using a more complex approach.
-
-
-
-RFM Analysis
-
-Recency, Frequency, Monetary Value (RFM) analysis, is a customer segmentation technique that uses three metrics to segment customers:
-
-
-
-Recency: How recently did the customer make a purchase?
-
-
-
-Frequency: How often does the customer make purchases?
-
-
-
-Monetary value: How much money does the customer spend?
-
-
-
-RFM analysis is a powerful tool for helping you understand your customers and target them more effectively. By segmenting customers based on RFM, you can identify your most valuable customers and focus your efforts on keeping them happy and engaged. The same analysis can help you identify ‘at risk’ customers and help you improve customer retention.
-
-
-
-Pricing Objectives and Influences
-
-These are the factors that businesses consider when setting prices for their products or services. The pricing objectives are the specific goals you want your pricing strategy to achieve. The pricing influences are factors that affect your ability to achieve your goals.
-
-
-
-Clearly, maximising profit is a common pricing objective. However, there are others, such as increasing sales volume, maintaining market share or reaching a specific target market.
-
-
-
-Apart from overall economic conditions, some other pricing influences could be your cost of production, or the competitive landscape.
-
-
-
-A significant point is that your pricing objectives and influences are constantly in flux and benefit from regular review.
-
-
-
-3\. Pricing Strategy
-
-The best pricing strategy for a business will depend on its specific objectives and the factors that influence its pricing decisions. For example, a business that is trying to recover its development costs quickly might use a skimming pricing strategy. A business that wants to create a perception of quality might use a premium pricing strategy. A business that wants to attract a large number of customers might use an economy pricing strategy. And a business that wants to gain market share quickly might use a penetration pricing strategy.
-
-
-
-4\. Pricing Tactics
-
-Pricing tactics are specific actions you can use to set prices. They are used in conjunction with pricing strategies to achieve specific pricing objectives. There are many to choose from—here are three common examples
-
-Decoy pricing: This tactic involves setting a high price for a product or service in order to make a lower-priced option more attractive. For example, a store might sell a high-end TV for $1,000 and then offer a lower-priced TV for $500. The $500 TV might seem like a better deal, even though it is still more expensive than the original price of the high-end TV.
-
-
-
-Loss leader pricing: This tactic involves selling a product or service at a loss in order to attract customers to the store. The business hopes to make up for the loss by selling other products or services at a profit. For example, a grocery store might sell milk at a loss in order to attract customers who will then buy other groceries at the store.
-
-
-
-Geographical pricing: This tactic involves charging different prices for the same product or service in different geographical areas. This is often done to reflect the cost of doing business in different areas. For example, a business might charge more for a product in a city than in a rural area.
-
-
-
-5\. Pricing Communications
-
-Communicating price to your customer base requires careful thought and a good understanding of buying psychology. All your previous work can come unhinged at this point, so extra care is needed.
-
-
-
-6\. Embedding Pricing
-
-There’s little point in doing all this work, unless it can become part of furniture, through the application of new processes, appropriate training, and the creation and review of new key performance indicators (KPI).
-
-
-
-Flowchart illustrating a pricing strategy process with sections labeled Analysis, Price Philosophy, Price Strategy, Price Tactics, Price Comms, and Price Embedding, each containing bullet points.
-
-Please click on the image to download PDF
-
-
-
-Pricing Process
-
-You have choices as to how you apply the Platypus Pricing Process to your business. Here are the three most common ways I work with clients:
-
-
-
-Each approach has timing and budget implications and what’s right for one company, might not be for another. My approach is flexible and I’m happy to adapt to your needs. You may also want to select a mix from the above list—an approach that’s proven popular with several clients. For example, a short presentation followed by a half-day workshop.
-
-
-
-Here’s a bit more about each.
 
