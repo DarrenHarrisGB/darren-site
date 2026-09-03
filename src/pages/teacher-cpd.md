@@ -1,4 +1,4 @@
-\---
+---
 
 layout: ../layouts/Layout.astro
 
@@ -6,11 +6,11 @@ title: Teacher CPD | Darren Harris
 
 description: Darren Harris Teacher CPD.
 
-\---
+---
 
 
 
-Teacher CPD for Schools \& Academy Trusts
+Teacher CPD for Schools & Academy Trusts
 
 Many teachers face disengaged, disruptive, or withdrawn students. When traditional teaching methods are not working, they feel frustrated, demotivated, and unsure how to relate to them. And it’s wrong to expect them to be educators, social workers, and counsellors at the same time.
 

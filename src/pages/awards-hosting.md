@@ -1,14 +1,9 @@
-\---
-
+---
 layout: ../layouts/Layout.astro
+title: Awards Host | Darren Harris
+description: Darren Harris Hosting Awards.
+---
 
-title: Awards Hosting | Darren Harris
-
-description: Darren Harris Awards Hosting.
-
-\---
-
-
-
-
+![Darren Harris hosting awards](/photos/awards-host-header.jpg)
+# Hosting Awards
 

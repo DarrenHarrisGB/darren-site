@@ -1,13 +1,11 @@
-\---
-
+---
 layout: ../layouts/Layout.astro
+title: Awards Presenter | Darren Harris
+description: Darren Harris Presenting Awards.
+---
 
-title: Awards Presenting | Darren Harris
-
-description: Darren Harris Awards Presenting.
-
-\---
-
+![Darren Harris presenting awards](/photos/awards-presenter-header.jpg)
+# Presenting Awards
 
 
 

@@ -4,7 +4,7 @@ title: About | Darren Harris
 description: Meet Darren Harris.
 ---
 
-![Darren Harris Paralympic head shot](/photos/about-header-image.jpg)
+![Darren Harris Paralympic head shot](/photos/about-header.jpg)
 # About
 Darren Harris built the Elite Level System the hard way — by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 ## Paralympian

@@ -1,14 +1,5 @@
-\---
-
+---
 layout: ../layouts/Layout.astro
-
-title: Assembly Talks | Darren Harris
-
+title: Assembly Speaker | Darren Harris
 description: Darren Harris Assembly Talks.
-
-\---
-
-
-
-
-
+---

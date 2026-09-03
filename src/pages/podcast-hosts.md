@@ -1,20 +1,12 @@
-\---
-
+---
 layout: ../layouts/Layout.astro
-
-title: Podcast Hosts | Darren Harris
-
+title: Podcast Host | Darren Harris
 description: Darren Harris Information For Podcast Hosts.
+---
 
-\---
-
-
-
-\# Information for Podcast Hosts
+# Information for Podcast Hosts
 
 My aim as a guest on your podcast is to make my time as beneficial for you and your listeners as possible. On this page, you’ll find everything you need, including:
-
-
 
 Speaker Bio
 
@@ -27,7 +19,6 @@ Downloadable Images
 Speaker Bio
 
 Darren Harris is a Paralympian, professional speaker, and author, who specialises in helping leaders and teams navigate challenge and change by using psychology-based tools and techniques.
-
 
 
 Having lost his sight following a diagnosis of childhood eye cancer, he began to ‘unblind’ his mind—a process of identifying and eliminating blind spots, which led him to become a dual Paralympian and England’s most-capped blind footballer.
@@ -202,7 +193,7 @@ Speaker Showreel
 
 © Copyright 2026 Darren Harris GB - Built by Marley Creative Ltd
 
-Social media \& sharing icons powered by UltimatelySocial
+Social media & sharing icons powered by UltimatelySocial
 
 
 
@@ -210,11 +201,11 @@ Do the social media icons show like you want to?
 
 
 
-If not, ask us in the forum, we're happy to help – quickly \& for free!
+If not, ask us in the forum, we're happy to help – quickly & for free!
 
 
 
-We can also consult you how to place them for maximum effect \& assist with anything else.
+We can also consult you how to place them for maximum effect & assist with anything else.
 
 
 

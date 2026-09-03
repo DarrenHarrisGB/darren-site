@@ -1,4 +1,4 @@
-\---
+---
 
 layout: ../layouts/Layout.astro
 
@@ -6,7 +6,7 @@ title: Frequently Asked Questions | Darren Harris
 
 description: Darren Harris FAQs.
 
-\---
+---
 
 
 
@@ -108,7 +108,7 @@ Speaker Showreel
 
 © Copyright 2026 Darren Harris GB - Built by Marley Creative Ltd
 
-Social media \& sharing icons powered by UltimatelySocial
+Social media & sharing icons powered by UltimatelySocial
 
 
 
@@ -116,11 +116,11 @@ Do the social media icons show like you want to?
 
 
 
-If not, ask us in the forum, we're happy to help – quickly \& for free!
+If not, ask us in the forum, we're happy to help – quickly & for free!
 
 
 
-We can also consult you how to place them for maximum effect \& assist with anything else.
+We can also consult you how to place them for maximum effect & assist with anything else.
 
 
 
