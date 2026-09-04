@@ -13,7 +13,7 @@ The text and images below have been provided to help you plan and organise your 
 This is a short description that you can use to market Darren for your event:
 > Darren Harris built his **elite performance mindset** the hard way -  by living without it first. He lost his sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 >
-> The turning point came during his 23-year sporting career, where he became a dual Paralympian, multiple World and European medallist, and England's most-capped blind footballer.
+> The turning point came during his 23-year sporting career, where he became a dual Paralympian, multiple World and European medallist, and most-capped England blind footballer.
 >
 > During this period, he went from psychology sceptic to scholar. When he realised the problem was never a lack of talent or effort but a missing set of mental skills.
 >
@@ -25,7 +25,7 @@ This is a short description that you can use to market Darren for your event:
 This is a short introduction that the MC reads aloud to welcome Darren Harris to the stage:
 > Our next speaker will Unblind Your Mind!
 >
-> In his talk, The Adversity Advantage, he will give you the psychological tools to prepare for, and respond to adversity.
+> In his talk, he will give you the mental skills to prepare for, and respond to adversity.
 >
 > He is a dual Paralympian, England’s most capped blind footballer, honorary doctor, and best-selling author accolades he has earned not despite, but because of his blindness.
 >

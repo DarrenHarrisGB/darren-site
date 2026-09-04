@@ -18,9 +18,11 @@ What separates the best from the rest isn't a better plan for next time. It's th
  2. **Audience members**: leaders and managers working in high-pressure, high-stakes environments; teams and individuals who need to perform live, not just prepare for it; Employee Resource Groups, particularly disability networks.
 
 ## What formats this session is available in
- This **Keynote Speaking**:
- 2. **Training** This is an extended version of my keynote, which looks at each skill in more detail, that allow for extensive Q&A sessions and an even greater level of customisation. They are applicable to the same audience type and mix as the keynote. The difference is the level of detail addressed.
- 3. **Coaching**: These sessions typically last between 2 to 3 hours and therefore allow for the greatest level of detail. These in-depth sessions address up to mental skills illustrated with detailed examples from business and consumer marketing. I also use customised examples, showing participants how they can apply his concepts.
+1. **Speaking**: This keynote talk delivers a high-impact message to a large audience, lasting between 30 and 60 minutes. The content is built to land broadly: a story and a framework that inspire and shift perspective. What stays with the listeners is a shared reference point they can return to.
+
+2. **Training**: This workshop covers the specific mental skills in greater depth, lasting between 2 and 3 hours. The exercises and examples are tailored to the specific skills gap in the room so that participants can demonstrably do the thing at the end that they couldn't do at the start.
+
+3. **Coaching**: We work through specific, individual challenges over an extended period lasting between 3 and 6 months. The sessions are relational and iterative: you diagnose, apply, review, adjust, repeat. The value is in the accumulation of sessions and the accountability in between.
 
 ## Complementary speaking topics
  - **Goal setting**: Avoiding the comparison trap

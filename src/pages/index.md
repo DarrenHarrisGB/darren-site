@@ -22,7 +22,7 @@ Using psychology-based principles that inspire leaders and teams to improve resi
 
 Every role has a moment when the strengths or weaknesses of a person or group become clear, whether it's the pitch, the crisis call, or the crunch meeting.
 
-People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the mental skills gap: the space between knowing and doing.
+People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the **mental skills gap**: the space between knowing and doing.
 
 ---
 
@@ -34,7 +34,7 @@ This psychology-based framework gives audiences the mental skills to become more
 ---
 
 ## What I Do
-Here are the three ways clients most often book me to deliver the Elite Performance Mindset. Choose the one that best fits your needs:
+Here are the three ways clients most often book me to deliver the **Elite Performance Mindset**. Choose the one that best fits your needs:
 | Format | Audience | Duration | Outcome |
 | --- | --- | --- | --- |
 | High-impact keynote talk | 50+ | 30-60 minutes | Inspire, shift perspective, and provide a shared reference point |
