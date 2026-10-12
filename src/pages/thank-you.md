@@ -2,6 +2,7 @@
 layout: ../layouts/Layout.astro
 title: Thank You | Darren Harris
 description: Thanks for your enquiry about booking Darren.
+noindex: true
 ---
 
 # Thanks — got it!
