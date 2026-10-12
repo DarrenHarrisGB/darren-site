@@ -1,19 +1,21 @@
 ---
 layout: ../layouts/Layout.astro
-title: Home | Darren Harris
-description: Darren Harris Speaker Trainer Coach.
+title: Darren Harris | Paralympian Speaker | Performance, Resilience & Adaptability
+description: Book Paralympian keynote speaker Darren Harris for talks, workshops and coaching that help leaders and teams become resilient and adaptable under pressure.
 ---
 
-<video class="hero-video" controls autoplay muted>
-  <source src="/videos/homepage.mp4" type="video/mp4" />
-  Your browser doesn't support video playback.
-</video>
-
-# Closing the Mental Skills Gap
-Using psychology-based principles that inspire leaders and teams to improve resilience and increase adaptability
-
-<div class="hero-cta">
-  <a class="button book-darren-cta" href="/contact/">Book Darren</a>
+<div class="hero">
+  <video class="hero-video" controls autoplay muted>
+    <source src="/videos/homepage.mp4" type="video/mp4" />
+    Your browser doesn't support video playback.
+  </video>
+  <div class="hero-content">
+    <h1>Closing the Mental Skills Gap</h1>
+    <p>Using psychology-based principles that inspire leaders and teams to become resilient and adaptable under pressure</p>
+    <div class="hero-cta">
+      <a class="button book-darren-cta" href="/contact/">Book Darren</a>
+    </div>
+  </div>
 </div>
 
 ---
@@ -35,7 +37,7 @@ This psychology-based framework gives audiences the mental skills to become more
 
 ## What I Do
 Here are the three ways clients most often book me to deliver the **Elite Performance Mindset**. Choose the one that best fits your needs:
-| Format | Audience | Duration | Outcome |
+| Format | Audience Size | Duration | Outcome |
 | --- | --- | --- | --- |
 | High-impact keynote talk | 50+ | 30-60 minutes | Inspire, shift perspective, and provide a shared reference point |
 | Interactive workshop | 11-50 | 2-3 hours | Develop a specific, measurable skill they can apply immediately |
@@ -60,16 +62,32 @@ Here are the three ways clients most often book me to deliver the **Elite Perfor
       <footer>&mdash; <strong>Savita Holt</strong>, Learning &amp; Development Lead, <cite>UK Research and Innovation</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;Darren delivered a solid theoretical background on how to overcome obstacles as well as resilience and the toolset of regulation, re-attribution and re-framing.&rdquo;</p>
+      <p>&ldquo;What strikes most is his vivid storytelling connecting the structure to his personal path&rdquo;</p>
       <footer>&mdash; <strong>Dr. Tim Renner</strong>, Logistics and IT General Manager, <cite>BMW Group</cite></footer>
+    </blockquote>
+    <blockquote class="testimonial-slide">
+      <p>&ldquo;He is a very gifted speaker and his openness and authenticity was very well received by the audience&rdquo;</p>
+      <footer>&mdash; <strong>Frances Hill</strong>, Head of Diversity, Equity &amp; Inclusion, <cite>Bank of England</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
       <p>&ldquo;What stood out was his ability to take the room on a deep exploration of resilience through his own lived experience.&rdquo;</p>
       <footer>&mdash; <strong>Melanie Hinds</strong>, Global Head of Internal Communications &amp; Employee Engagement, <cite>Amnesty International</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;A speaker people talked about long after he left the room, I don&rsquo;t normally use speakers, however, Darren came highly recommended and we would definitely book him again.&rdquo;</p>
-      <footer>&mdash; <strong>Fleur Robinson</strong>, Commercial Director, <cite>Burton Albion Football Club</cite></footer>
+      <p>&ldquo;“A talk full of motivational insights and powerful anecdotes you can take away”&rdquo;</p>
+      <footer>&mdash; <strong>Naomi Turner</strong>, Diversity, Equity and Inclusion Lead, <cite>Southern Water</cite></footer>
+    </blockquote>
+    <blockquote class="testimonial-slide">
+      <p>&ldquo;“Throughout his talk Darren had the audience in the palm of his hand”&rdquo;</p>
+      <footer>&mdash; <strong>George Hawes</strong>, Vice President, <cite>Deltatre</cite></footer>
+    </blockquote>
+    <blockquote class="testimonial-slide">
+      <p>&ldquo;“There were 6 or 7 speakers, all highly rated... there is no doubt that Darren was the best of them all”&rdquo;</p>
+      <footer>&mdash; <strong>Michael Ledzion </strong>, Chief Executive, <cite>Sports for Schools</cite></footer>
+    </blockquote>
+    <blockquote class="testimonial-slide">
+      <p>&ldquo;“An incredibly articulate, thoughtful and inspiring individual who offers some of the clearest, most grounded and authentic perspectives I've ever encountered”&rdquo;</p>
+      <footer>&mdash; <strong>Henry Hobbs</strong>, Marketing Co-ordinator, <cite>Owen James Group</cite></footer>
     </blockquote>
     <!-- To add another testimonial: copy the blockquote block above and paste a new one right here. The carousel picks it up automatically -- no other changes needed. -->
   </div>

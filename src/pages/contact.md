@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-title: Book Darren | Darren Harris
-description: Enquire about booking Darren to speak at your event.
+title: Contact Paralympian Speaker | Darren Harris
+description: Book Paralympian keynote speaker Darren Harris for your conference or event. Share your date, audience and budget, and Darren will get in touch to discuss fit.
 ---
 
 # Book Darren

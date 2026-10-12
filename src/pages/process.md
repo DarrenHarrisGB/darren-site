@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-title: Performance Process | Darren Harris
-description: Darren Harris Performance Process.
+title: Elite Performance Mindset | Darren Harris
+description: Paralympian Darren Harris’s three-step Elite Performance Mindset helps leaders and teams break through plateaus, slumps and inconsistency.
 ---
 
 ![Darren Harris speaking on stage](/photos/process-header.jpg)

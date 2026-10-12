@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
 title: Keynote Speaker, Trainer & Coach | Darren Harris
-description: keynote talks, workshops, and coaching.
+description: Looking for an opening or closing keynote with a practical takeaway? Paralympian Darren Harris helps leaders and teams perform under pressure.
 ---
 
 ![Darren Harris speaking on stage](/photos/services-header.jpg)

@@ -6,7 +6,10 @@ interface Props {
   description?: string;
 }
 
-const { title, description = "Darren's site" } = Astro.props;
+const { frontmatter } = Astro.props;
+const title = frontmatter?.title ?? Astro.props.title;
+const description = frontmatter?.description ?? Astro.props.description ?? "Darren's site";
+const noindex = frontmatter?.noindex ?? false;
 
 // Add or remove nav links here as you add pages.
 const navLinks = [
@@ -26,6 +29,8 @@ const navLinks = [
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta property="og:description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
   </head>
   <body>
     <header class="site-header">
@@ -85,7 +90,6 @@ const navLinks = [
             </a>
           </li>
         </ul>
-        <p><a href="/blog/">Blog</a></p>
         <p><a href="/speaker-bookers/">Speaker Bookers</a></p>
         <p>&copy; {new Date().getFullYear()} Darren Harris. All rights reserved.</p>
       </div>
