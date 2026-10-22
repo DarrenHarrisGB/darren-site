@@ -1,7 +1,12 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  // Change this to your real domain once you're ready to go live,
-  // e.g. site: 'https://darrenharrisgb.com'
-  site: 'https://example.netlify.app',
+  site: 'https://darrenharrisgb.com',
+  integrations: [
+    // Builds sitemap-index.xml for Google. The thank-you page is left out.
+    sitemap({
+      filter: (page) => !page.includes('/thank-you'),
+    }),
+  ],
 });
