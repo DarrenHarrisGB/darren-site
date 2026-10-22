@@ -19,6 +19,25 @@ const navLinks = [
   { href: '/about/', label: 'About' },
   { href: '/contact/', label: 'Contact' },
 ];
+
+// Person structured data for Google, added to the homepage only.
+const isHome = Astro.url.pathname === '/';
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Darren Harris",
+  "url": "https://darrenharrisgb.com/",
+  "jobTitle": "Keynote Speaker",
+  "description": "Two-sport Paralympian, England's most-capped blind footballer and keynote speaker.",
+  "sameAs": [
+    "https://en.wikipedia.org/wiki/Darren_Harris_(Paralympian)",
+    "https://www.linkedin.com/in/darrenharrisgb/",
+    "https://www.instagram.com/darrenharrisgb/",
+    "https://www.facebook.com/DarrenHarrisGB/",
+    "https://x.com/darrenharrisgb/",
+    "https://www.youtube.com/channel/UCfkCCz3n3uvpZgqyuMpDbCA"
+  ]
+};
 ---
 
 <!doctype html>
@@ -31,6 +50,7 @@ const navLinks = [
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}
+    {isHome && <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />}
   </head>
   <body>
     <header class="site-header">
