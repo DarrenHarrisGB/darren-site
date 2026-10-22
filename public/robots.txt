@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darrenharrisgb.com/sitemap-index.xml
