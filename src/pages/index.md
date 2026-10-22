@@ -70,23 +70,23 @@ Here are the three ways clients most often book me to deliver the **Elite Perfor
       <footer>&mdash; <strong>Frances Hill</strong>, Head of Diversity, Equity &amp; Inclusion, <cite>Bank of England</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;What stood out was his ability to take the room on a deep exploration of resilience through his own lived experience.&rdquo;</p>
+      <p>&ldquo;What stood out was his ability to take the room on a deep exploration of resilience through his own lived experience&rdquo;</p>
       <footer>&mdash; <strong>Melanie Hinds</strong>, Global Head of Internal Communications &amp; Employee Engagement, <cite>Amnesty International</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;“A talk full of motivational insights and powerful anecdotes you can take away”&rdquo;</p>
+      <p>&ldquo;A talk full of motivational insights and powerful anecdotes you can take away&rdquo;</p>
       <footer>&mdash; <strong>Naomi Turner</strong>, Diversity, Equity and Inclusion Lead, <cite>Southern Water</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;“Throughout his talk Darren had the audience in the palm of his hand”&rdquo;</p>
+      <p>&ldquo;Darren had the audience in the palm of his hand&rdquo;</p>
       <footer>&mdash; <strong>George Hawes</strong>, Vice President, <cite>Deltatre</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;“There were 6 or 7 speakers, all highly rated... there is no doubt that Darren was the best of them all”&rdquo;</p>
+      <p>&ldquo;There were 6 or 7 speakers, all highly rated... there is no doubt that Darren was the best of them all&rdquo;</p>
       <footer>&mdash; <strong>Michael Ledzion </strong>, Chief Executive, <cite>Sports for Schools</cite></footer>
     </blockquote>
     <blockquote class="testimonial-slide">
-      <p>&ldquo;“An incredibly articulate, thoughtful and inspiring individual who offers some of the clearest, most grounded and authentic perspectives I've ever encountered”&rdquo;</p>
+      <p>&ldquo;An incredibly articulate, thoughtful and inspiring individual who offers some of the clearest, most grounded and authentic perspectives I've ever encountered&rdquo;</p>
       <footer>&mdash; <strong>Henry Hobbs</strong>, Marketing Co-ordinator, <cite>Owen James Group</cite></footer>
     </blockquote>
     <!-- To add another testimonial: copy the blockquote block above and paste a new one right here. The carousel picks it up automatically -- no other changes needed. -->
