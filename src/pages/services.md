@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/Layout.astro
 title: Keynote Speaker, Trainer & Coach | Darren Harris
-description: Looking for an opening or closing keynote with a practical takeaway? Paralympian Darren Harris helps leaders and teams perform under pressure.
+description: Looking for an opening or closing keynote for your conference or event? Inspiring talks,, workshops, and coaching for leaders and high performers.
 ---
 
-![Darren Harris speaking on stage](/photos/services-header.jpg)
+![Darren Harris speaking on stage at Optometry Tomorrow](/photos/paralympic-keynote-speaker.jpg)
 # How to Own Your Defining Moment
 What separates the best from the rest isn't a better plan for next time. It's the ability to make the most of this time.
 

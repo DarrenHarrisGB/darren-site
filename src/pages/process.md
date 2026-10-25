@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/Layout.astro
 title: Elite Performance Mindset | Darren Harris
-description: Paralympian Darren Harris’s three-step Elite Performance Mindset helps leaders and teams break through plateaus, slumps and inconsistency.
+description: Closing the mental skills gap to break through plateaus, slumps and inconsistency with Paralympian, psychologist and performance specialist.
 ---
 
-![Darren Harris speaking on stage](/photos/process-header.jpg)
+![Darren Harris speaking on stage against a backdrop](/photos/elite-performance-mindset.jpg)
 # The Elite Performance Mindset
 This is both a mindset I lived as an elite athlete and the framework I now teach. It comprises three steps:
 

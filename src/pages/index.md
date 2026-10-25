@@ -1,17 +1,17 @@
 ---
 layout: ../layouts/Layout.astro
-title: Darren Harris | Paralympian Speaker | Performance, Resilience & Adaptability
-description: Book Paralympian keynote speaker Darren Harris for talks, workshops and coaching that help leaders and teams become resilient and adaptable under pressure.
+title: Blind Motivational Speaker | Darren Harris
+description: Two-sport Paralympian and England's most-capped blind footballer. Keynotes on leadership and performance that help audiences become resilient and adaptable under pressure.
 ---
 
 <div class="hero">
-  <video class="hero-video" controls autoplay muted>
+  <video class="hero-video" controls autoplay muted poster="/photos/homepage-video-poster.jpg">
     <source src="/videos/homepage.mp4" type="video/mp4" />
     Your browser doesn't support video playback.
   </video>
   <div class="hero-content">
-    <h1>Closing the Mental Skills Gap</h1>
-    <p>Using psychology-based principles that inspire leaders and teams to become resilient and adaptable under pressure</p>
+    <h1>Transforming Team Performance Through Lessons from Elite Sport</h1>
+    <p>Keynote talks, workshops, and coaching from England’s most-capped blind footballer, giving your team the mental skills to perform at their best when they can’t see what’s coming.</p>
     <div class="hero-cta">
       <a class="button book-darren-cta" href="/contact/">Book Darren</a>
     </div>

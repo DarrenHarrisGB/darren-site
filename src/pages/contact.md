@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-title: Contact Paralympian Speaker | Darren Harris
-description: Book Paralympian keynote speaker Darren Harris for your conference or event. Share your date, audience and budget, and Darren will get in touch to discuss fit.
+title: Keynote Speaker based in Birmingham | Darren Harris
+description: Planning a conference or event? Contact Birmingham-based keynote speaker to check dates and fees. Available UK-wide and beyond.
 ---
 
 # Book Darren
