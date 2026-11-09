@@ -5,17 +5,37 @@ export default defineConfig({
   site: 'https://darrenharrisgb.com',
   // Short links and old addresses. Each one sends visitors to the page on the right.
   redirects: {
-    // Short links for the school pages
-    '/awards': '/school-awards',
-    '/enrichment': '/school-enrichment',
-    '/cpd': '/school-cpd',
-    '/assemblies': '/school-assemblies',
+    // Old Services page address
+    '/services': '/speaking',
+    // Shortcuts
+    '/about': '/two-sport-paralympian',
+    '/blind-motivational-speaker': '/two-sport-paralympian',
+    '/contact': '/birmingham-motivational-speaker',
+    '/paralympian-speaker-near-me': '/birmingham-motivational-speaker',
+    '/assembly': '/raising-attainment-speaker',
+    '/awards': '/prizegiving-guest-speaker',
+    '/enrichment': '/character-education-speaker',
+    '/inset': '/inclusive-education-speaker',
     // Old school page addresses, so existing links still work
-    '/prizegiving': '/school-awards',
-    '/teacher-cpd': '/school-cpd',
-    '/assembly': '/school-assemblies',
-    // Short link for the after-dinner speaker page
-    '/after-dinner-speaker': '/after-dinner-speaker-and-awards-host-and-presenter',
+    '/school-assemblies': '/raising-attainment-speaker',
+    '/school-awards': '/prizegiving-guest-speaker',
+    '/school-enrichment': '/character-education-speaker',
+    '/school-cpd': '/inclusive-education-speaker',
+    '/assemblies': '/raising-attainment-speaker',
+    '/prizegiving': '/prizegiving-guest-speaker',
+    '/cpd': '/inclusive-education-speaker',
+    '/teacher-cpd': '/inclusive-education-speaker',
+    // Shortcut for the after-dinner speaker page
+    '/ads': '/after-dinner-speaker',
+    '/ADS': '/after-dinner-speaker',
+    // Shortcut for the awards host page
+    '/mc': '/awards-host',
+    '/MC': '/awards-host',
+    '/awards-host-and-presenter': '/awards-host',
+    // Shortcut for the mental performance coach page
+    '/coaching': '/mental-performance-coach',
+    // Old combined after-dinner/awards page address
+    '/after-dinner-speaker-and-awards-host-and-presenter': '/after-dinner-speaker',
   },
   integrations: [
     // Builds sitemap-index.xml for Google. The thank-you page is left out.

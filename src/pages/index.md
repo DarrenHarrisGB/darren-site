@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
-title: Blind Motivational Speaker | Darren Harris
-description: Two-sport Paralympian and England's most-capped blind footballer. Keynotes on leadership and performance that help audiences become resilient and adaptable under pressure.
+title: Two-Sport Paralympian & Award-Winning Speaker | Darren Harris
+description: Get the mental skills elite athletes use to stay calm in high-pressure moments, recover quickly from mistakes, and keep performing when plans fall apart.
 ---
 
 <div class="hero">
@@ -10,10 +10,10 @@ description: Two-sport Paralympian and England's most-capped blind footballer. K
     Your browser doesn't support video playback.
   </video>
   <div class="hero-content">
-    <h1>Transforming Team Performance Through Lessons from Elite Sport</h1>
-    <p>Keynote talks, workshops, and coaching from England’s most-capped blind footballer, giving your team the mental skills to perform at their best when they can’t see what’s coming.</p>
+    <h1>Transforming Mental Performance For Leaders & Teams</h1>
+    <p>With the mental skills elite athletes use to stay calm in high-pressure moments, recover quickly from mistakes, and keep performing when plans fall apart.</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/contact/">Book Darren</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>
@@ -43,7 +43,7 @@ Here are the three ways clients most often book me to deliver the **Elite Perfor
 | Interactive workshop | 11-50 | 2-3 hours | Develop a specific, measurable skill they can apply immediately |
 | Performance coaching | 1-10 | 3-6 months | Work through specific challenges |
 
-[Read more →](/services)
+[Read more →](/speaking/)
 
 ---
 
@@ -133,6 +133,6 @@ Here are the three ways clients most often book me to deliver the **Elite Perfor
 ## Who I Am
 I built my **Elite Performance Mindset** the hard way — by living without it first. I lost my sight as a child and spent years waiting for a miracle cure, instead of learning how to live without one.
 
-[Read more →](/about)
+[Read more →](/two-sport-paralympian/)
 
-<a class="button book-darren-cta" href="/contact/">Book Darren</a>
+<a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>

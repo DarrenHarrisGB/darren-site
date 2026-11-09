@@ -37,7 +37,7 @@ Calendar not showing, or using a screen reader? [Open the booking page in a new 
 
 Darren Harris is a two-sport Paralympian and England's most-capped blind footballer, with 157 international appearances and ten World and European medals. He holds a Master's in Psychology and is an award-winning keynote speaker who has delivered 450+ presentations to 150,000+ people since 2013, for organisations including HSBC, BMW, the NHS and the BBC.
 
-His keynote, The Elite Performance Mindset, transforms team performance through lessons from elite sport. Read more [about Darren](/about/).
+His keynote, The Elite Performance Mindset, transforms team performance through lessons from elite sport. Read more [about Darren](/two-sport-paralympian/).
 
 > "By far one of the greatest speakers I have seen."
 >

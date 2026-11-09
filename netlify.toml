@@ -1,3 +1,137 @@
 [build]
   command = "npm run build"
   publish = "dist"
+
+# Permanent (301) redirects for shortcuts and old addresses. Netlify matches these regardless of capitals, so /INSET works too.
+
+[[redirects]]
+  from = "/about"
+  to = "/two-sport-paralympian/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact"
+  to = "/birmingham-motivational-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/assembly"
+  to = "/raising-attainment-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/awards"
+  to = "/prizegiving-guest-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enrichment"
+  to = "/character-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inset"
+  to = "/inclusive-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/school-assemblies"
+  to = "/raising-attainment-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/school-awards"
+  to = "/prizegiving-guest-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/school-enrichment"
+  to = "/character-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/school-cpd"
+  to = "/inclusive-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/assemblies"
+  to = "/raising-attainment-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/prizegiving"
+  to = "/prizegiving-guest-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cpd"
+  to = "/inclusive-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/teacher-cpd"
+  to = "/inclusive-education-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/after-dinner-speaker-and-awards-host-and-presenter"
+  to = "/after-dinner-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services"
+  to = "/speaking/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blind-motivational-speaker"
+  to = "/two-sport-paralympian/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ads"
+  to = "/after-dinner-speaker/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mc"
+  to = "/awards-host/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/awards-host-and-presenter"
+  to = "/awards-host/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coaching"
+  to = "/mental-performance-coach/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/paralympian-speaker-near-me"
+  to = "/birmingham-motivational-speaker/"
+  status = 301
+  force = true
