@@ -18,6 +18,15 @@ description: Get the mental skills elite athletes use to stay calm in high-press
   </div>
 </div>
 
+<div class="credential-badges">
+  <a href="https://thepsa.co.uk/membership/fellows-criteria/">
+    <img src="/logos/professional-speaking-association-fellow.JPG" alt="Fellow of the Professional Speaking Association" width="300" height="300" loading="lazy" />
+  </a>
+  <a href="https://nationalfootballmuseum.com/halloffame/darren-harris/">
+    <img src="/logos/football-hall-of-fame-inductee.PNG" alt="Inductee of the Football Hall of Fame" width="1080" height="720" loading="lazy" />
+  </a>
+</div>
+
 ---
 
 ## The Mental Skills Gap
