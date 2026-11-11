@@ -10,7 +10,7 @@ description: Raise attainment with an assembly from a Paralympian speaker that s
     <h1>Raising Academic Attainment</h1>
     <p>One-hour talk for a whole school or specific year group that shows students how success comes from showing up consistently at school and beyond</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Check my availability</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>

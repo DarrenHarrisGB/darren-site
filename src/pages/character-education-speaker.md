@@ -9,7 +9,7 @@ description: Enrich character education through a Paralympian-led blind football
     <h1>Enriching Character Education</h1>
     <p>Paralympian-led blind football workshop that builds confidence, resilience, and skills for life</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Check my availability</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>

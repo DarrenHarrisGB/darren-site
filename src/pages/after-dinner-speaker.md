@@ -5,12 +5,12 @@ description: Entertain guests with funny and inspiring stories from a behind-the
 ---
 
 <div class="hero">
-  <img class="hero-image" src="/photos/after-dinner-speaker-header.jpg" alt="Darren Harris delivering an after-dinner speech" />
+  <img class="hero-image" src="/photos/after-dinner-speaker.jpg" alt="Darren Harris delivering an after-dinner speech" />
   <div class="hero-content">
     <h1>After-Dinner Speaking</h1>
     <p>Funny and inspiring stories from a behind-the-scenes tour of a 23-year career in Paralympic sport</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Check dates</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>

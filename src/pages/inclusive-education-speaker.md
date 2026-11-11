@@ -10,7 +10,7 @@ description: Champion inclusive education with CPD from a blind school governor 
     <h1>Championing Inclusive Education</h1>
     <p>INSET days and twilight sessions providing practical ways to remove barriers so every learner can thrive</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Check my availability</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>

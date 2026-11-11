@@ -34,6 +34,9 @@ export default defineConfig({
     '/awards-host-and-presenter': '/awards-host',
     // Shortcut for the mental performance coach page
     '/coaching': '/mental-performance-coach',
+    // Shortcuts for the Mental Skills Gap Scorecard
+    '/assessment': '/mental-skills-gap-scorecard',
+    '/scorecard': '/mental-skills-gap-scorecard',
     // Old combined after-dinner/awards page address
     '/after-dinner-speaker-and-awards-host-and-presenter': '/after-dinner-speaker',
   },

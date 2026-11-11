@@ -10,8 +10,8 @@ description: Get the mental skills elite athletes use to stay calm in high-press
     Your browser doesn't support video playback.
   </video>
   <div class="hero-content">
-    <h1>Transforming Mental Performance For Leaders & Teams</h1>
-    <p>With the mental skills elite athletes use to stay calm in high-pressure moments, recover quickly from mistakes, and keep performing when plans fall apart.</p>
+    <h1>Unblind Your Mind</h1>
+    <p>Transforming performance through giving leaders and teams the mental skills elite athletes use to stay calm in high-pressure moments, recover quickly from mistakes, and keep performing when plans fall apart.</p>
     <div class="hero-cta">
       <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>

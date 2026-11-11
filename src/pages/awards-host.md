@@ -10,7 +10,7 @@ description: Book a multiple award winner to host your event, announce categorie
     <h1>Hosting Annual Awards Ceremony</h1>
     <p>announce categories and nominees, and formally present the awards to the winners</p>
     <div class="hero-cta">
-      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Check dates</a>
+      <a class="button book-darren-cta" href="/birmingham-motivational-speaker/">Book Darren</a>
     </div>
   </div>
 </div>
