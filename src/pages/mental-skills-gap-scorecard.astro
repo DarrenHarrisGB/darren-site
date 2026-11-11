@@ -4,14 +4,21 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout
   title="Mental Skills Gap Scorecard | Darren Harris"
-  description="Find out how you perform under pressure. Rate yourself on the nine mental skills of elite performers and get your free results in about five minutes."
+  description="Find out how you perform under pressure. Rate yourself on the nine mental skills of elite performers and get your free results in about three minutes."
 >
 <div class="scorecard">
 
 <!-- ============ STEP 1: QUESTIONS ============ -->
 <section id="quiz-section" aria-labelledby="page-title">
   <h1 id="page-title">The Mental Skills Gap Scorecard</h1>
-  <p class="intro">Rate yourself on the nine mental skills elite performers use, and find out where your strengths and gaps are. It takes about five minutes.</p>
+  <p class="intro">Rate yourself on the nine mental skills elite performers use, and find out where your strengths and gaps are. It takes about three minutes.</p>
+
+  <figure class="pyramid-figure" aria-labelledby="pyramid-caption">
+    <div id="intro-pyramid"></div>
+    <figcaption id="pyramid-caption">
+      <span class="label">How the nine skills fit together:</span> they build on each other like a pyramid. Foundation skills sit at the base: Choosing attitudes, Self-motivation, Setting goals and Dealing with people. Preparation skills sit in the middle: Self-talk and Mental imagery, which get your mind ready before the moment arrives. Performance skills sit at the top: Managing anxiety, Regulating emotions and Concentration, which you use in the moment itself. When the base is strong, everything above it is more reliable under pressure.
+    </figcaption>
+  </figure>
 
   <div class="scale-key">
     <p><span class="label">How to answer:</span> for each statement, choose how true it is for you, from 1 (almost never true for me) to 5 (almost always true for me).</p>
@@ -98,6 +105,11 @@ import Layout from '../layouts/Layout.astro';
   <h1 id="results-title" tabindex="-1">Your full results</h1>
   <div id="results-content"></div>
 
+  <div id="print-results-wrap" class="print-wrap">
+    <button type="button" class="button" id="print-results">Download your results as a PDF</button>
+    <p class="small">In the print window, choose "Save as PDF" as the printer.</p>
+  </div>
+
   <div class="cta">
     <h2>Close your mental skills gap</h2>
     <p>Every one of these nine skills can be trained, the same way elite athletes train them. The Elite Performance Mindset gives leaders and teams the mental skills to stay calm under pressure, recover quickly from mistakes and keep performing when plans fall apart.</p>
@@ -113,35 +125,26 @@ import Layout from '../layouts/Layout.astro';
 
 <script is:inline>
 (function () {
-  // ---------- Questions, in shuffled order (numbers 1-27) ----------
+  // ---------- Questions, in shuffled order (numbers 1-18) ----------
   var QUESTIONS = [
     "When the stakes are high, I can still think clearly.",
-    "I know why what I do matters to me, and that keeps me going.",
+    "I get started on difficult or important tasks without putting them off.",
     "I handle disagreements in a way that keeps the relationship intact.",
     "I can block out distractions and stay focused on the task in hand.",
     "When things go wrong, I focus on what I can still control.",
-    "Before an important moment, I imagine it going well in detail.",
-    "I bounce back quickly after something upsets me.",
-    "I break big goals down into steps I can work on this week.",
-    "Under pressure, I use words or phrases that keep me calm and focused.",
-    "I have a routine or technique that calms me down when I need it.",
-    "I can stay positive about my work even when people around me are negative.",
-    "I can let go of a mistake and focus on what comes next.",
-    "I get started on difficult or important tasks without putting them off.",
-    "I mentally rehearse how I'll respond if things don't go to plan.",
-    "I ask for help or support when I need it.",
+    "Before an important moment, I imagine it going well in detail: what I'd see, hear and feel.",
     "I can stop frustration or anger from affecting how I perform.",
+    "I break big goals down into steps I can work on this week.",
     "After a mistake, the voice in my head helps me rather than criticises me.",
-    "I regularly check my progress and adjust my plans when I need to.",
-    "When I'm interrupted or plans change, I can refocus quickly.",
+    "I have a routine or technique that calms me down when I need it.",
     "I see setbacks as something to learn from, not proof that I'm not good enough.",
-    "I see nerves as a sign I'm ready, not a sign something's wrong.",
-    "I run things through to get into the right frame of mind before I perform.",
     "I keep putting in effort even when I can't see results yet.",
+    "I mentally rehearse how I'll respond if things don't go to plan.",
     "I communicate clearly with others, even when I'm under pressure.",
-    "I notice when my thinking turns negative, and I can change it.",
-    "I stay composed when people around me are losing it.",
-    "I have clear targets that stretch me but that I believe I can reach."
+    "I notice what I'm feeling as it happens, and can name it.",
+    "I have clear targets that stretch me but that I believe I can reach.",
+    "When I'm interrupted or plans change, I can refocus quickly.",
+    "I notice when my thinking turns negative, and I can change it."
   ];
 
   // ---------- Levels ----------
@@ -171,55 +174,55 @@ import Layout from '../layouts/Layout.astro';
 
   // ---------- Skills (q = question numbers in the shuffled order) ----------
   var SKILLS = [
-    { id: "positive-attitude", name: "Choosing attitudes", level: "foundation", q: [5, 11, 20],
+    { id: "positive-attitude", name: "Choosing attitudes", level: "foundation", q: [5, 11],
       low: "Setbacks may feel personal right now, as if they say something about who you are. That's a heavy load to carry into a high-pressure moment.",
       mid: "You usually keep perspective, but a run of bad days or a negative room can pull you off course.",
       high: "You treat setbacks as information, not judgement. You focus on what you can control, and that steadies the people around you too.",
       tip: "When something goes wrong, ask two questions: “What can I control here?” and “What's the next useful step?” Write the answers down. It moves you from reacting to responding.",
       stage: "My Debut story shows how two minutes set the foundation for the rest of my career." },
-    { id: "self-motivation", name: "Self-motivation", level: "foundation", q: [2, 13, 23],
+    { id: "self-motivation", name: "Self-motivation", level: "foundation", q: [2, 12],
       low: "Getting started, or keeping going when results are slow, is a struggle. You may rely on deadlines or other people to push you.",
       mid: "You're driven when the goal feels close or exciting, but motivation can dip in the long middle stretch.",
       high: "You start difficult things without waiting to feel ready, and keep going when nobody's watching. You know your why.",
       tip: "Shrink the first step until it's almost too small to fail: five minutes, one email, one page. Starting builds motivation; waiting for motivation rarely does.",
       stage: "My Athens story shows what drove my switch from football to judo." },
-    { id: "goal-setting", name: "Setting goals", level: "foundation", q: [8, 18, 27],
+    { id: "goal-setting", name: "Setting goals", level: "foundation", q: [8, 16],
       low: "Your targets may be vague, too safe, or so big they're hard to act on. Without a clear direction, effort gets spread thin.",
       mid: "You know where you're heading, but the steps in between, and checking your progress, could be sharper.",
       high: "You set targets that stretch you, break them into weekly actions, and adjust when things change.",
       tip: "Take one big ambition and write down the single action that would move it forward this week. Put it in your diary like a meeting.",
       stage: "My Cooper's Test story shows the different ways people set goals." },
-    { id: "dealing-with-people", name: "Dealing with people", level: "foundation", q: [3, 15, 24],
+    { id: "dealing-with-people", name: "Dealing with people", level: "foundation", q: [3, 14],
       low: "Asking for help, handling disagreement or staying clear under pressure may be hard. That can leave you carrying more than you need to.",
       mid: "You work well with most people, but tension or high stakes can make communication harder.",
       high: "You ask for support, handle disagreement without damaging the relationship, and stay clear when it matters.",
       tip: "Before a difficult conversation, decide the one outcome you want for the relationship, not just the issue. Let that guide what you say.",
       stage: "My Water Bottle story shows how a disagreement cost me my place in the squad for fifteen months." },
-    { id: "self-talk", name: "Self-talk", level: "preparation", q: [9, 17, 25],
+    { id: "self-talk", name: "Self-talk", level: "preparation", q: [9, 18],
       low: "Your inner voice may be harsh, especially after a mistake. Under pressure, that critic gets louder just when you need it to be quiet.",
       mid: "You can usually talk yourself round, but negative thinking sometimes runs for a while before you notice it.",
       high: "Your inner voice works for you. You catch negative thoughts early and have words ready that keep you calm and focused.",
       tip: "Choose one short cue phrase for pressure moments, such as “next ball” or “calm and clear”. Practise it in small moments so it's there in big ones.",
       stage: "My Rio story shares the internal dialogue that occurs when you compete against the best." },
-    { id: "mental-imagery", name: "Mental imagery", level: "preparation", q: [6, 14, 22],
+    { id: "mental-imagery", name: "Mental imagery", level: "preparation", q: [6, 13],
       low: "You may not rehearse important moments in your mind yet, or you only imagine things going wrong.",
       mid: "You sometimes run through what's coming, but not in detail, and rarely the “what if it goes wrong” version.",
       high: "You rehearse in detail, including how you'll respond when plans change. By the time the moment comes, it feels familiar.",
       tip: "Imagery isn't just pictures. Spend two minutes running through your next big moment: what you'll hear, feel and say, and how you'll handle one thing going wrong.",
       stage: "My Sensory Map story shows how I get myself into the right frame of mind." },
-    { id: "managing-anxiety", name: "Managing anxiety", level: "performance", q: [1, 10, 21],
+    { id: "managing-anxiety", name: "Managing anxiety", level: "performance", q: [1, 10],
       low: "Nerves may cloud your thinking when the stakes are high, and you may not yet have a way to bring them down.",
       mid: "You usually cope with pressure, but in the biggest moments nerves can still take the edge off your performance.",
       high: "You read nerves as a sign you're ready and have a routine that brings you back to calm when you need it.",
       tip: "Breathe out for longer than you breathe in: in for four, out for six, three times. A longer out-breath tells your body to settle.",
       stage: "My Penalty Shootout story shares how nerves affect your body." },
-    { id: "managing-emotions", name: "Regulating emotions", level: "performance", q: [7, 16, 26],
+    { id: "managing-emotions", name: "Regulating emotions", level: "performance", q: [7, 15],
       low: "Frustration, anger or upset can take over and affect how you perform, and it may take a while to recover.",
       mid: "You keep your emotions in check most of the time, but some situations or people still get under your skin.",
       high: "You stay composed when others don't and bounce back quickly when something upsets you.",
       tip: "Name the emotion to yourself: “That's frustration.” Naming it creates a small gap between feeling and reacting, and that gap is where your choice lives.",
       stage: "My Red Card story shows how difficult it is to keep your emotions in check." },
-    { id: "concentration", name: "Concentration", level: "performance", q: [4, 12, 19],
+    { id: "concentration", name: "Concentration", level: "performance", q: [4, 17],
       low: "Distractions, interruptions and mistakes can pull your attention away, and getting it back takes time.",
       mid: "You focus well when conditions are right, but noise, change or a mistake can scatter your attention.",
       high: "You block out distractions, refocus fast after interruptions and let mistakes go so you can deal with what's next.",
@@ -228,7 +231,148 @@ import Layout from '../layouts/Layout.astro';
   ];
 
   var BAND_LABELS = { low: "Development area", mid: "Solid foundation", high: "Strength" };
-  function band(score) { return score < 8 ? "low" : (score < 12 ? "mid" : "high"); }
+  var BAND_COLOURS = { low: "#8a4b00", mid: "#5D3FD3", high: "#1b6e3a" };
+  var BAND_TINTS = { low: "#f6e7d6", mid: "#e9e4fb", high: "#dcefe1" };
+
+  // Shown under "Areas to take care with"
+  var CARE = {
+    "positive-attitude": "When pressure builds, setbacks can feel bigger and more personal than they are. Watch for all-or-nothing thinking after a bad day.",
+    "self-motivation": "Without a clear first step, important work can drift. Watch for putting things off until a deadline forces you.",
+    "goal-setting": "Effort without a clear target gets spread thin. Watch for being busy without moving forward.",
+    "dealing-with-people": "Under pressure, communication is often the first thing to slip. Watch for avoiding difficult conversations or going quiet when you need support.",
+    "self-talk": "A harsh inner critic gets louder under pressure. Watch for the voice that replays mistakes instead of moving you on.",
+    "mental-imagery": "Going into big moments unrehearsed leaves room for doubt. Watch for only picturing what could go wrong.",
+    "managing-anxiety": "When nerves rise, clear thinking is the first thing to go. Watch for rushing, freezing or avoiding high-stakes moments.",
+    "managing-emotions": "Strong emotions can take over before you notice them. Watch for reactions you regret once the moment has passed.",
+    "concentration": "Interruptions and mistakes can scatter your attention. Watch for losing the thread and struggling to get it back."
+  };
+
+  var LEVEL_ORDER = ["foundation", "preparation", "performance"];
+
+  // Pyramid: performance at the top, foundation at the base. With results, tiers are coloured by band.
+  function pyramidSVG(res) {
+    var tiers = [
+      { key: "performance", y1: 10, y2: 140, w1: 150, w2: 310 },
+      { key: "preparation", y1: 140, y2: 245, w1: 310, w2: 450 },
+      { key: "foundation", y1: 245, y2: 355, w1: 450, w2: 590 }
+    ];
+    var cx = 300, out = '<svg viewBox="0 0 600 365" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="pyramid-svg">';
+    tiers.forEach(function (t) {
+      var skills = SKILLS.filter(function (s) { return s.level === t.key; });
+      var band = res ? res.levels[t.key].band : null;
+      var fill = band ? BAND_TINTS[band] : (t.key === "foundation" ? "#e2dcf8" : t.key === "preparation" ? "#ece8fb" : "#f5f3fd");
+      var stroke = band ? BAND_COLOURS[band] : "#5D3FD3";
+      out += '<polygon points="' + (cx - t.w1 / 2) + ',' + t.y1 + ' ' + (cx + t.w1 / 2) + ',' + t.y1 + ' ' + (cx + t.w2 / 2) + ',' + t.y2 + ' ' + (cx - t.w2 / 2) + ',' + t.y2 +
+             '" fill="' + fill + '" stroke="' + stroke + '" stroke-width="2"/>';
+      var title = LEVELS[t.key].name;
+      var lines = [];
+      if (t.key === "foundation") {
+        lines = [skills[0].name + "  ·  " + skills[1].name, skills[2].name + "  ·  " + skills[3].name];
+      } else if (t.key === "preparation") {
+        lines = [skills.map(function (s) { return s.name; }).join("  ·  ")];
+      } else {
+        lines = skills.map(function (s) { return s.name; });
+      }
+      if (res) {
+        lines = lines.map(function (line) {
+          return line.split("  ·  ").map(function (nm) {
+            var r = res.skills.filter(function (x) { return x.skill.name === nm; })[0];
+            return nm + " " + r.score;
+          }).join("  ·  ");
+        });
+      }
+      if (band) lines.unshift("[" + BAND_LABELS[band] + "]");
+      var total = 1 + lines.length, lh = 19;
+      var startY = (t.y1 + t.y2) / 2 - (total - 1) * lh / 2 + 5;
+      if (t.key === "performance") startY += band ? 10 : 12;
+      out += '<text x="' + cx + '" y="' + startY + '" text-anchor="middle" font-size="17" font-weight="700" fill="' + (band ? BAND_COLOURS[band] : "#1f2937") + '">' + esc(title) + '</text>';
+      lines.forEach(function (line, i) {
+        var isBand = line.charAt(0) === "[";
+        out += '<text x="' + cx + '" y="' + (startY + (i + 1) * lh) + '" text-anchor="middle" font-size="14"' +
+               (isBand ? ' font-weight="700" fill="' + BAND_COLOURS[band] + '"' : ' fill="#1f2937"') + '>' + esc(isBand ? line.slice(1, -1) : line) + '</text>';
+      });
+    });
+    return out + '</svg>';
+  }
+
+  // Horizontal bar chart of the nine skill scores, grouped by level
+  function barChartSVG(res) {
+    var left = 190, right = 560, rowH = 30, y = 34;
+    var scale = function (v) { return left + (v / 10) * (right - left); };
+    var rows = '';
+    LEVEL_ORDER.forEach(function (key) {
+      rows += '<text x="0" y="' + (y + 14) + '" font-size="13" font-weight="700" fill="#4b5563" letter-spacing="0.5">' + LEVELS[key].name.toUpperCase() + '</text>';
+      y += 24;
+      res.skills.filter(function (r) { return r.skill.level === key; }).forEach(function (r) {
+        rows += '<text x="0" y="' + (y + 15) + '" font-size="14" fill="#1f2937">' + esc(r.skill.name) + '</text>';
+        rows += '<rect x="' + left + '" y="' + (y + 2) + '" width="' + (scale(r.score) - left) + '" height="18" rx="3" fill="' + BAND_COLOURS[r.band] + '"/>';
+        rows += '<text x="' + (scale(r.score) + 6) + '" y="' + (y + 16) + '" font-size="13" font-weight="700" fill="#1f2937">' + r.score + '</text>';
+        y += rowH;
+      });
+      y += 6;
+    });
+    var h = y + 10, grid = '';
+    [0, 2, 4, 6, 8, 10].forEach(function (v) {
+      grid += '<line x1="' + scale(v) + '" y1="26" x2="' + scale(v) + '" y2="' + (h - 10) + '" stroke="#e5e7eb"/>';
+      grid += '<text x="' + scale(v) + '" y="16" font-size="12" text-anchor="middle" fill="#6b7280">' + v + '</text>';
+    });
+    [4.5, 7.5].forEach(function (v) {
+      grid += '<line x1="' + scale(v) + '" y1="26" x2="' + scale(v) + '" y2="' + (h - 10) + '" stroke="#9ca3af" stroke-dasharray="4 4"/>';
+    });
+    return '<svg viewBox="0 0 600 ' + h + '" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="bar-svg">' + grid + rows + '</svg>';
+  }
+
+  function legendHTML() {
+    return '<ul class="band-legend" aria-hidden="true">' + ["low", "mid", "high"].map(function (b) {
+      return '<li><span class="swatch" style="background:' + BAND_COLOURS[b] + '"></span>' + BAND_LABELS[b] + ' (' + (b === "low" ? "2–4" : b === "mid" ? "5–7" : "8–10") + ')</li>';
+    }).join("") + '</ul>';
+  }
+
+  // Lowest first; ties go to the lower level of the pyramid
+  function byNeed(a, b) {
+    if (a.score !== b.score) return a.score - b.score;
+    return LEVEL_ORDER.indexOf(a.skill.level) - LEVEL_ORDER.indexOf(b.skill.level);
+  }
+
+  function summaryHTML(res) {
+    var lv = res.levels;
+    var sorted = LEVEL_ORDER.slice().sort(function (a, b) { return lv[a].avg - lv[b].avg; });
+    var weakest = sorted[0], strongest = sorted[2];
+    var bands = LEVEL_ORDER.map(function (k) { return lv[k].band; });
+    var statement;
+    if (bands.every(function (b) { return b === "high"; })) {
+      statement = "You have a strong, well-balanced mental skills profile. Your foundations are solid, you prepare well and you perform under pressure. The challenge now is consistency: keeping these skills sharp when you are tired, stretched or facing something new.";
+    } else if (bands.every(function (b) { return b === bands[0]; }) && bands[0] === "low") {
+      statement = "Every level of your pyramid has room to grow, which means small changes will make a real difference. Start at the base: foundation skills are the most learnable, and strengthening them lifts everything above.";
+    } else if (lv[strongest].avg - lv[weakest].avg < 1) {
+      statement = "Your profile is evenly balanced across the three levels, with " + LEVELS[strongest].name + " just ahead. Because no single level is holding you back, the quickest gains will come from the individual skills below.";
+    } else if (weakest === "foundation") {
+      statement = "Your " + LEVELS[strongest].name + " skills are your strongest level, but your Foundation is the one to build. Because foundation skills support everything above them, strengthening them will make your preparation and performance far more reliable under pressure.";
+    } else if (weakest === "preparation") {
+      statement = "You have a stable base and you can perform, but your Preparation skills are the level to build. Getting your mind ready before the moment arrives will make your best performances more consistent and less dependent on how you feel on the day.";
+    } else {
+      statement = "Your Foundation and Preparation are in place, but the gap shows up in the moment itself. Building your Performance skills will help you access what you already know when the pressure is on.";
+    }
+    var need = res.skills.slice().sort(byNeed);
+    var wins = need.slice(0, 3);
+    var care = need.filter(function (r) { return r.band === "low"; }).slice(0, 2);
+    if (!care.length) care = need.slice(0, 1);
+
+    var html = '<h2>Bringing it all together</h2><p>' + esc(statement) + '</p>';
+    html += '<h3>Your quick wins</h3><ol class="quick-wins">' + wins.map(function (r) {
+      return '<li><span class="label">' + esc(r.skill.name) + ':</span> ' + esc(r.skill.tip) + '</li>';
+    }).join("") + '</ol>';
+    html += '<h3>Areas to take care with</h3><ul class="take-care">' + care.map(function (r) {
+      return '<li><span class="label">' + esc(r.skill.name) + ':</span> ' + esc(CARE[r.skill.id]) + '</li>';
+    }).join("") + '</ul>';
+    return html;
+  }
+
+  // Draw the explanatory pyramid on the questions page
+  var introPyramid = document.getElementById("intro-pyramid");
+  if (introPyramid) introPyramid.innerHTML = pyramidSVG(null);
+  document.getElementById("print-results").addEventListener("click", function () { window.print(); });
+  function band(score) { return score < 5 ? "low" : (score < 8 ? "mid" : "high"); }
   function esc(s) { var d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
   function fmt(n) { return Number.isInteger(n) ? String(n) : n.toFixed(1); }
 
@@ -256,7 +400,7 @@ import Layout from '../layouts/Layout.astro';
 
   function score() {
     var answers = {};
-    for (var n = 1; n <= 27; n++) {
+    for (var n = 1; n <= QUESTIONS.length; n++) {
       var picked = document.querySelector('input[name="q' + n + '"]:checked');
       answers[n] = picked ? Number(picked.value) : null;
     }
@@ -279,7 +423,7 @@ import Layout from '../layouts/Layout.astro';
   document.getElementById("quiz-form").addEventListener("submit", function (e) {
     e.preventDefault();
     var missing = [];
-    for (var n = 1; n <= 27; n++) {
+    for (var n = 1; n <= QUESTIONS.length; n++) {
       var answered = !!document.querySelector('input[name="q' + n + '"]:checked');
       document.getElementById("q" + n).classList.toggle("has-error", !answered);
       document.getElementById("q" + n + "-error").hidden = answered;
@@ -316,11 +460,12 @@ import Layout from '../layouts/Layout.astro';
               BAND_LABELS[r.band] + '</span></h2><p style="margin:0">' + esc(L[r.band]) + '</p></div>';
     });
     html += '<p><span class="label">Your top strength:</span> ' + esc(results.top.skill.name) + '.</p>';
+    html += '<figure class="pyramid-figure">' + pyramidSVG(results) + legendHTML() + '</figure>';
     document.getElementById("preview-content").innerHTML = html;
 
     // Fill the hidden score fields
     var f = document.getElementById("gate-form");
-    f.elements["overall"].value = results.overall + " / 135";
+    f.elements["overall"].value = results.overall + " / 90";
     Object.keys(LEVELS).forEach(function (key) {
       f.elements[key].value = fmt(results.levels[key].avg) + " (" + BAND_LABELS[results.levels[key].band] + ")";
     });
@@ -371,10 +516,17 @@ import Layout from '../layouts/Layout.astro';
   });
 
   function showResults(name) {
-    var html = '<p>Thanks, ' + esc(name) + '. Here are your scores for all nine mental skills. Each skill scores between 3 and 15.</p>';
+    var html = '<p>Thanks, ' + esc(name) + '. Here are your scores for all nine mental skills. Each skill scores between 2 and 10.</p>';
     html += '<div class="result-card"><p style="margin:0"><span class="label">Your top strength:</span> ' + esc(results.top.skill.name) +
             ' (' + results.top.score + ')</p><p style="margin:0"><span class="label">Your biggest gap:</span> ' + esc(results.gap.skill.name) +
             ' (' + results.gap.score + '). Start here: small gains in this skill will make the biggest difference.</p></div>';
+
+    html += '<h2>Your profile at a glance</h2>';
+    html += '<figure class="chart-figure">' + barChartSVG(results) + legendHTML() +
+            '<figcaption class="small">Bar chart of your nine skill scores out of 10, grouped by level. The dashed lines mark the band boundaries. Each score is also listed in full below.</figcaption></figure>';
+    html += '<figure class="pyramid-figure">' + pyramidSVG(results) +
+            '<figcaption class="small">Your pyramid, coloured by band: Foundation ' + BAND_LABELS[results.levels.foundation.band] +
+            ', Preparation ' + BAND_LABELS[results.levels.preparation.band] + ', Performance ' + BAND_LABELS[results.levels.performance.band] + '.</figcaption></figure>';
 
     Object.keys(LEVELS).forEach(function (key) {
       var L = LEVELS[key], lr = results.levels[key];
@@ -382,7 +534,7 @@ import Layout from '../layouts/Layout.astro';
       html += '<p>' + esc(L.intro) + '</p><p>' + esc(L[lr.band]) + '</p>';
       results.skills.filter(function (r) { return r.skill.level === key; }).forEach(function (r) {
         var s = r.skill;
-        html += '<div class="result-card"><h3>' + esc(s.name) + ': ' + r.score + ' out of 15, <span class="band band-' + r.band + '">' +
+        html += '<div class="result-card"><h3>' + esc(s.name) + ': ' + r.score + ' out of 10, <span class="band band-' + r.band + '">' +
                 BAND_LABELS[r.band] + '</span></h3>' +
                 '<p>' + esc(s[r.band]) + '</p>' +
                 '<p><span class="label">Tip:</span> ' + esc(s.tip) + '</p>' +
@@ -390,6 +542,7 @@ import Layout from '../layouts/Layout.astro';
       });
     });
 
+    html += summaryHTML(results);
     document.getElementById("results-content").innerHTML = html;
     document.getElementById("preview-section").hidden = true;
     document.getElementById("results-section").hidden = false;
@@ -444,4 +597,21 @@ import Layout from '../layouts/Layout.astro';
 .scorecard .cta a.scorecard-cta-button { background: #fff; color: var(--color-accent); border-color: #fff; }
 .scorecard .credit { margin-top: 3rem; font-size: 0.95rem; color: #4b5563; text-align: center; }
 .scorecard [hidden] { display: none !important; }
+.scorecard figure { margin: 1.5rem 0; }
+.scorecard .pyramid-svg { width: 100%; max-width: 560px; display: block; margin: 0 auto; }
+.scorecard .bar-svg { width: 100%; max-width: 640px; display: block; margin: 0 auto; }
+.scorecard figcaption { margin-top: 0.75rem; }
+.scorecard .band-legend { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; padding: 0; margin: 0.75rem 0 0; font-size: 0.95rem; }
+.scorecard .band-legend .swatch { display: inline-block; width: 0.9rem; height: 0.9rem; border-radius: 3px; margin-right: 0.4rem; vertical-align: -0.1rem; }
+.scorecard .quick-wins li, .scorecard .take-care li { margin-bottom: 0.6rem; }
+.scorecard .print-wrap { margin: 2rem 0 0; text-align: center; }
+@media print {
+  header.site-header, footer.site-footer, #quiz-section, #preview-section, .scorecard .print-wrap, .scorecard .cta .button { display: none !important; }
+  main { padding: 0 !important; }
+  .scorecard, .scorecard * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { font-size: 11pt; }
+  .scorecard .result-card, .scorecard figure { break-inside: avoid; }
+  .scorecard .cta { background: none !important; color: #1f2937 !important; border: 2px solid #5D3FD3; }
+  .scorecard .cta h2 { color: #1f2937 !important; }
+}
 </style>
