@@ -20,22 +20,18 @@ description: Get the mental skills elite athletes use to stay calm in high-press
 
 ---
 
-## The Defining Moment Your People Can't Afford to Get Wrong
+## The Mental Skills Gap
 
 Every role has a moment when the strengths or weaknesses of a person or group become clear, whether it's the pitch, the crisis call, or the crunch meeting.
 
 People don't lose that moment because they don't know what to do. They lose it because, under pressure, they can't access what they already know. That's the **mental skills gap**: the space between knowing and doing.
 
+[Take the assessment →](/assessment)
+
 ---
 
 ## The Elite Performance Mindset
-This psychology-based framework gives audiences the mental skills to become more resilient and adaptable.
 
-[Read more →](/process)
-
----
-
-## What I Do
 Here are the three ways clients most often book me to deliver the **Elite Performance Mindset**. Choose the one that best fits your needs:
 | Format | Audience Size | Duration | Outcome |
 | --- | --- | --- | --- |
