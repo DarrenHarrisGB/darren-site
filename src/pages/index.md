@@ -58,7 +58,7 @@ Trusted by organisations in finance, healthcare, government, defence, technology
   <li><img src="/logos/NHS.png" alt="NHS" loading="lazy" /></li>
   <li><img src="/logos/Allianz.png" alt="Allianz" loading="lazy" /></li>
   <li><img src="/logos/BAE%20Systems.png" alt="BAE Systems" loading="lazy" /></li>
-  <li><img src="/logos/Minstry%20of%20Defence.png" alt="Ministry of Defence" loading="lazy" /></li>
+  <li><img src="/logos/Ministry%20of%20Defence.png" alt="Ministry of Defence" loading="lazy" /></li>
   <li><img src="/logos/Deltatre.png" alt="Deltatre" loading="lazy" /></li>
   <li><img src="/logos/Amnesty%20International.png" alt="Amnesty International" loading="lazy" /></li>
   <li><img src="/logos/Gallagher.png" alt="Gallagher" loading="lazy" /></li>
