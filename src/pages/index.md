@@ -57,13 +57,13 @@ Trusted by organisations in finance, healthcare, government, defence, technology
   <li><img src="/logos/HSBC.png" alt="HSBC" loading="lazy" /></li>
   <li><img src="/logos/NHS.png" alt="NHS" loading="lazy" /></li>
   <li><img src="/logos/Allianz.png" alt="Allianz" loading="lazy" /></li>
-  <li><img src="/logos/BAE%20Systems.png" alt="BAE Systems" loading="lazy" /></li>
-  <li><img src="/logos/Ministry%20of%20Defence.png" alt="Ministry of Defence" loading="lazy" /></li>
+  <li><img src="/logos/BAE-Systems.png" alt="BAE Systems" loading="lazy" /></li>
+  <li><img src="/logos/Ministry-of-Defence.png" alt="Ministry of Defence" loading="lazy" /></li>
   <li><img src="/logos/Deltatre.png" alt="Deltatre" loading="lazy" /></li>
-  <li><img src="/logos/Amnesty%20International.png" alt="Amnesty International" loading="lazy" /></li>
+  <li><img src="/logos/Amnesty-International.png" alt="Amnesty International" loading="lazy" /></li>
   <li><img src="/logos/Gallagher.png" alt="Gallagher" loading="lazy" /></li>
-  <li><img src="/logos/Financial%20Ombudsman%20Service.png" alt="Financial Ombudsman Service" loading="lazy" /></li>
-  <li><img src="/logos/UK%20Research%20and%20Innovation.png" alt="UK Research and Innovation" loading="lazy" /></li>
+  <li><img src="/logos/Financial-Ombudsman-Service.png" alt="Financial Ombudsman Service" loading="lazy" /></li>
+  <li><img src="/logos/UK-Research-and-Innovation.png" alt="UK Research and Innovation" loading="lazy" /></li>
   <li><img src="/logos/Nutricia.png" alt="Nutricia" loading="lazy" /></li>
   <li><img src="/logos/Anchor.png" alt="Anchor" loading="lazy" /></li>
 </ul>
