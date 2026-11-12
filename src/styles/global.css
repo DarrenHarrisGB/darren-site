@@ -480,3 +480,41 @@ main th {
   white-space: nowrap;
   border: 0;
 }
+
+/* Client logos on the homepage: 2 rows of 6 on wide screens, 3 across on tablets, 2 across on phones */
+.client-logos {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.client-logos li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  padding: 0.5rem;
+}
+
+.client-logos img {
+  max-height: 70px;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 800px) {
+  .client-logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .client-logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
