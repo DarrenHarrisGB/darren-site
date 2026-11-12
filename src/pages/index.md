@@ -41,14 +41,11 @@ People don't lose that moment because they don't know what to do. They lose it b
 
 ## The Elite Performance Mindset
 
-Here are the three ways clients most often book me to deliver the **Elite Performance Mindset**. Choose the one that best fits your needs:
-| Format | Audience Size | Duration | Outcome |
-| --- | --- | --- | --- |
-| High-impact keynote talk | 50+ | 30-60 minutes | Inspire, shift perspective, and provide a shared reference point |
-| Interactive workshop | 11-50 | 2-3 hours | Develop a specific, measurable skill they can apply immediately |
-| Performance coaching | 1-10 | 3-6 months | Work through specific challenges |
+Here are the three talks clients most often book me to deliver, each built on the **Elite Performance Mindset**:
 
-[Read more →](/speaking/)
+| Become a Successful Leader | Become a Successful Team | Become a Successful Network |
+| --- | --- | --- |
+| What kind of leader are you when the pressure is on? Learn the mental skills to stay calm, think clearly and make the call, so your team gets your best, not your stress. | In blind football, you can't see your teammates, yet you win by talking with and trusting each other. Remote and hybrid teams face the same challenge. Develop the mental skills so distance never becomes disconnection. | Grow your allies, influence your leaders, and keep momentum when energy dips. The result? Your Employee Resource Groups go from a calendar of events to a driving force for change. |
 
 ---
 
