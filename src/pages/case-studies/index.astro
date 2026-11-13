@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const studies = (await getCollection('caseStudies', ({ data }) => import.meta.env.DEV || !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order || (b.data.year ?? 0) - (a.data.year ?? 0)
+);
+---
+
+<Layout title="Case Studies | Darren Harris" description="How organisations have used Darren Harris's Elite Performance Mindset keynotes, workshops and coaching to help their people perform under pressure.">
+  <h1>Case Studies</h1>
+  <p>How organisations have used the Elite Performance Mindset to help their people perform when it matters most.</p>
+
+  <ul class="cs-list">
+    {studies.map((study) => (
+      <li class="cs-card">
+        {study.data.logo && <img src={study.data.logo} alt="" loading="lazy" />}
+        <h2><a href={`/case-studies/${study.id}/`}>{study.data.client}: {study.data.title}</a></h2>
+        <p>{study.data.summary}</p>
+        {study.data.draft && <p class="cs-draft">Draft</p>}
+      </li>
+    ))}
+  </ul>
+</Layout>
+
+<style>
+  .cs-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.5rem; }
+  .cs-card { border: 1px solid var(--color-border); border-radius: 8px; padding: 1.25rem; }
+  .cs-card img { max-height: 60px; width: auto; margin-bottom: 0.75rem; }
+  .cs-card h2 { font-size: 1.15rem; margin: 0 0 0.5rem; }
+  .cs-draft { display: inline-block; background: #f9eeda; border-radius: 4px; padding: 0.1rem 0.5rem; font-weight: 600; font-size: 0.9rem; }
+</style>
