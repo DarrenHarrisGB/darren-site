@@ -54,7 +54,7 @@ Here are the three talks clients most often book me to deliver, each built on th
 Trusted by organisations in finance, healthcare, government, defence, technology, housing and the charity sector.
 
 <ul class="client-logos">
-  <li><img src="/logos/HSBC.png" alt="HSBC" loading="lazy" /></li>
+  <li><a href="/case-studies/hsbc/"><img src="/logos/HSBC.png" alt="HSBC case study" loading="lazy" /></a></li>
   <li><img src="/logos/NHS.png" alt="NHS" loading="lazy" /></li>
   <li><img src="/logos/Allianz.png" alt="Allianz" loading="lazy" /></li>
   <li><img src="/logos/BAE-Systems.png" alt="BAE Systems" loading="lazy" /></li>

@@ -12,7 +12,7 @@ quote:
   name: "Daria Dobrzyniecka"
   role: "Graduate Recruiter, HSBC"
 order: 20
-draft: true
+draft: false
 ---
 
 ## The challenge
