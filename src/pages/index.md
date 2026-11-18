@@ -43,9 +43,26 @@ People don't lose that moment because they don't know what to do. They lose it b
 
 Here are the three talks clients most often book me to deliver, each built on the **Elite Performance Mindset**:
 
-| Become a Successful Leader | Become a Successful Team | Become a Successful Network |
-| --- | --- | --- |
-| What kind of leader are you when the pressure is on? Learn the mental skills to stay calm, think clearly and make the call, so your team gets your best, not your stress. | In blind football, you can't see your teammates, yet you win by talking with and trusting each other. Remote and hybrid teams face the same challenge. Develop the mental skills so distance never becomes disconnection. | Grow your allies, influence your leaders, and keep momentum when energy dips. The result? Your Employee Resource Groups go from a calendar of events to a driving force for change. |
+<ul class="programmes">
+  <li>
+    <img src="/photos/paralympic-keynote-speaker.jpg" alt="Darren speaking on stage in a grey suit and sunglasses" loading="lazy" />
+    <h3>Become a Successful Leader</h3>
+    <p>Positioning yourself to make the biggest difference</p>
+    <a href="/leadership-keynote-speaker/">Explore Become a Successful Leader</a>
+  </li>
+  <li>
+    <img src="/photos/speaker-bookers-header.jpg" alt="Darren Harris speaking on stage" loading="lazy" />
+    <h3>Build a Successful Team</h3>
+    <p>Turning a talented group of individuals into a high-performing team</p>
+    <a href="/teamwork-keynote-speaker/">Explore Build a Successful Team</a>
+  </li>
+  <li>
+    <img src="/photos/tedx-speaker.jpg" alt="Darren speaking with a headset microphone, wearing a light grey jacket and sunglasses" loading="lazy" />
+    <h3>Grow a Successful Network</h3>
+    <p>Growing the reach, influence and impact of your employee resource group</p>
+    <a href="/network-growth-keynote-speaker/">Explore Grow a Successful Network</a>
+  </li>
+</ul>
 
 ---
 

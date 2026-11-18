@@ -21,7 +21,7 @@ Try this before you read on! Close your eyes and ask a colleague to guide you to
 ## A Positive Role Model
 **Give your pupils a meaningful, authentic, unforgettable experience**
 
-This isn't a sighted person teaching about disability. It's led by me, someone with lived experience of blindness who has become a dual Paralympian, England's most-capped blind footballer with 157 international appearances.
+This isn't a sighted person teaching about disability. It's led by me, someone with lived experience of blindness who has become a two-sport Paralympian, England's most-capped blind footballer with 157 international appearances.
 
 <blockquote class="testimonial-slide">
   <p>&ldquo;The experience really opened their eyes to what can be achieved in life, even with a disability.&rdquo;</p>

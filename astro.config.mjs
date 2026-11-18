@@ -7,6 +7,8 @@ export default defineConfig({
   redirects: {
     // Old Services page address
     '/services': '/speaking',
+    // Old speaker bookers page address
+    '/speaker-bookers': '/event-planners',
     // Shortcuts
     '/about': '/two-sport-paralympian',
     '/blind-motivational-speaker': '/two-sport-paralympian',
